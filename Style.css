@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  background-color: rgb(218, 197, 197);
+  flex-direction: column;
+}
+
+.header {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo-title {
+  color: rgb(20, 58, 15);
+}
+
+.navigation > a {
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(134, 57, 57);
+  font-size: 20px;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.slogan {
+  text-align: center;
+}
+
+.about-us {
+  margin: auto 0;
+}
+
+.our-cocks > img {
+  border: 2px solid red;
+  width: 320px;
+  height: 300px;
+}
